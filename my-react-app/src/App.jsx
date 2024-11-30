@@ -8,8 +8,12 @@ function App() {
 
   return (
     <>
+      <BrowserRouter>
+        <Routes>
+          <Route path = "/Home" element={<Home />}  />
+        </Routes>
+      </BrowserRouter>
 
-      
     </>
   )
 }
